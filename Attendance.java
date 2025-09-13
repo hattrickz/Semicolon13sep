@@ -6,10 +6,11 @@ public static void main (String [] args){
 Scanner input = new Scanner(System.in);
 System.out.println("Enter Student attendance");
 int attend = input.nextInt();
-
+// check if attendance is greater than 75 print eligible if not  
  if (attend >= 75){
 	System.out.print("Eligible");
 	}
+	 display not eligible
 	else{
 	System.out.print("not eligible");
 	}
