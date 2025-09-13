@@ -10,7 +10,7 @@ int attend = input.nextInt();
  if (attend >= 75){
 	System.out.print("Eligible");
 	}
-	 display not eligible
+// display not eligible
 	else{
 	System.out.print("not eligible");
 	}
